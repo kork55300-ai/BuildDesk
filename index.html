@@ -1,0 +1,6 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#17191b"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>BuildDesk</title></head><body>
+<header><div class="brand"><b>B</b><span><strong>BuildDesk</strong><small>БУДІВЕЛЬНА ПЛАТФОРМА</small></span></div><span id="net">● Офлайн готовий</span></header>
+<main id="app"></main>
+<nav><button data-page="home">⌂<small>Головна</small></button><button data-page="orders">▤<small>Замовлення</small></button><button id="add" class="plus">＋</button><button data-page="finance">₴<small>Фінанси</small></button><button data-page="more">▦<small>Ще</small></button></nav>
+<dialog id="dlg"><form method="dialog"><div class="modalhead"><h2 id="mt"></h2><button value="cancel">✕</button></div><div id="mb"></div><div class="actions" id="ma"></div></form></dialog><div id="toast"></div>
+<script src="app.js"></script><script>if('serviceWorker'in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('./sw.js');</script></body></html>
